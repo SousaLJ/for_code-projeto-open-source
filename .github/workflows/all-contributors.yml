@@ -1,0 +1,17 @@
+name: All Contributors
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  addContributor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository content
+        uses: actions/checkout@v2
+
+      - name: 'Run All Contributors'
+        uses: all-contributors/all-contributors-action@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
