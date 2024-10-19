@@ -1,0 +1,25 @@
+{
+  "projectName": "meu-projeto-open-source",
+  "projectOwner": "SousaLJ",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "SousaLJ",
+      "name": "Leandro Sousa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29185767?v=4",
+      "profile": "https://github.com/SousaLJ",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "linkToUsage": true
+}
