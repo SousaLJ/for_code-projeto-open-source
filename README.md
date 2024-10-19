@@ -38,6 +38,7 @@ cd meu-projeto-open-source
 
 # Rode o arquivo de exemplo em Python
 python src/exemplo.py
+```
 
 ## Contributors ✨
 
