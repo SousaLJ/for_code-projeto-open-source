@@ -42,7 +42,7 @@ python src/exemplo.py
 
 ## Contributors ✨
 
-Membros da for_code que aprenderam a contribuir em projetos Open Source do GitHub ([code](https://allcontributors.org/docs/en/emoji-key)):
+Membros da for_code que aprenderam a contribuir em projetos Open Source do GitHub (["doc"](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
