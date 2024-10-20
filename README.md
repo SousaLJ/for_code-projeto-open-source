@@ -51,7 +51,8 @@ Membros da for_code que aprenderam a contribuir em projetos Open Source do GitHu
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/SousaLJ"><img src="https://avatars.githubusercontent.com/u/29185767?v=4?s=100" width="100px;" alt="Leandro Sousa"/><br /><sub><b>Leandro Sousa</b></sub></a><br /><a href="https://github.com/SousaLJ/meu-projeto-open-source/commits?author=SousaLJ" title="Documentation">📖</a></td>
-    </tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/forcodeufrj"><img src="https://github.com/forcodeufrj.png?size=100" width="100px;" alt="forcodeufrj"/><br /><sub><b>forcodeufrj</b></sub></a><br /><a href="https://github.com/SousaLJ/meu-projeto-open-source/commits?author=forcodeufrj" title="Contribution">📖</a></td>
+</tr>
   </tbody>
   <tfoot>
     <tr>
