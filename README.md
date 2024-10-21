@@ -3,13 +3,13 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Bem-vindo ao projeto open source da For_Code! Este projeto tem como objetivo ensinar os membros a contribuírem em projetos de código aberto.
+Bem-vindo ao projeto open source da For_Code! Este projeto faz parte da capacitação sobre Git / GitHub e tem como objetivo treinar os membros na contribuição em projetos open source.
+Detalhes sobre os membros que participaram deste projeto podem ser acessados em [contributors](https://github.com/SousaLJ/for_code-projeto-open-source/tree/master/contributors)
 
 ## Índice
 
 - [Visão Geral](#visão-geral)
 - [Pré-requisitos](#pré-requisitos)
-- [Instalação](#instalação)
 - [Como Contribuir](#como-contribuir)
 - [Licença](#licença)
 - [Contribuidores](#contribuidores)
@@ -25,24 +25,9 @@ Certifique-se de que você tem os seguintes requisitos instalados:
 - [Git](https://git-scm.com/)
 - [Python](https://www.python.org/)
 
-## Instalação
-
-Para rodar o projeto localmente, siga as instruções abaixo:
-
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/meu-projeto-open-source.git
-
-# Entre no diretório do projeto
-cd meu-projeto-open-source
-
-# Rode o arquivo de exemplo em Python
-python src/exemplo.py
-```
-
 ## Contributors ✨
 
-Membros da for_code que aprenderam a contribuir em projetos Open Source do GitHub (["doc"](https://allcontributors.org/docs/en/emoji-key)):
+Membros da for_code que aprenderam a contribuir em projetos Open Source do GitHub:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
