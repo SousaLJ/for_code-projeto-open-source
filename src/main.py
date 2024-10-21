@@ -60,6 +60,25 @@ def add_contributor_to_readme(username, avatar_url, contribution_type="📖"):
 
     print(f"Contribuidor {username} adicionado ao README.md.")
 
+def update_contributos_count():
+    with open(README_PATH, 'r') as file:
+        content = file.read()
+
+    # Padrão de busca para a badge: all_contributors-NUMERO-orange
+    pattern = r"all_contributors-(\d+)-orange"
+    match = re.search(pattern, content)
+    if match:
+        #incrementa o total de contributors em +1
+        new_count = int(match.group(1)) + 1
+        # Substitui o número encontrado pelo novo número
+        new_content = re.sub(pattern, f"all_contributors-{new_count}-orange", content)
+
+        with open(README_PATH, 'w') as file:
+            file.write(new_content)
+            print(f"Número de colaboradores atualizado para {new_count} em {README_PATH}")
+    else:
+        print("Badge de colaboradores não encontrada no arquivo.")
+
 
 def update_all_contributors(username, avatar_url):
     with open(ALL_CONTRIBUTORS_PATH, 'r+', encoding='utf-8') as file:
@@ -92,3 +111,4 @@ def process_contributors():
 
 if __name__ == "__main__":
     process_contributors()
+    update_contributos_count()

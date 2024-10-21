@@ -1,6 +1,6 @@
 # Guia de Contribuição
 
-Obrigado por considerar contribuir para o projeto!
+Guia de contribuição - Siga os passos abaixo para contribuir neste projeto
 
 ## Como começar
 
