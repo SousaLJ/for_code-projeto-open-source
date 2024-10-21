@@ -55,8 +55,9 @@ def add_contributor_to_readme(username, avatar_url, contribution_type="📖"):
     # Substituir o conteúdo da tabela
     updated_readme = readme_content.replace(table_content, updated_table_content)
 
-    with open(README_PATH, 'w', encoding='utf-8') as file:
+    with open(README_PATH, 'w', encoding='utf-8') as file:        
         file.write(updated_readme)
+        update_contributos_count()
 
     print(f"Contribuidor {username} adicionado ao README.md.")
 
@@ -111,4 +112,3 @@ def process_contributors():
 
 if __name__ == "__main__":
     process_contributors()
-    update_contributos_count()
